@@ -17,6 +17,9 @@
     <test name="Smoke Test" >
         <classes>
             <class name="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.MyAccountsTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksTest"/>
+            <class name="com.tutorialsninja.demo.testsuite.DesktopsTest"/>
         </classes>
     </test>
 </suite>

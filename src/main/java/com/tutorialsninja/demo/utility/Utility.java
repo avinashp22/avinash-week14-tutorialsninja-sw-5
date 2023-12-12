@@ -95,6 +95,27 @@ public class Utility extends ManageBrowser {
         //driver.findElement(by).sendKeys(Keys.ENTER);
     }
 
+    public List<WebElement> getListOfElements(By by) {
+        return driver.findElements(by);
+    }
+
+    public List<WebElement> getListOfElements(WebElement element) {
+        return getListOfElements(element);
+    }
+
+    public void clearTextFromFields (By by) {
+        driver.findElement(by).sendKeys(Keys.CONTROL + "a");
+        driver.findElement(by).sendKeys(Keys.DELETE);
+    }
+
+    public void clearTextFromField(WebElement element,String value) {
+        element.clear();
+        element.sendKeys(value);
+    }
+    public void clearText(WebElement element){
+        element.clear();
+    }
+
 //*************************** Alert Methods ***************************************//
 
     /**

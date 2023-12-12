@@ -10,18 +10,18 @@
     </groups>
 
 
-
-
     <listeners>
         <listener class-name="com.tutorialsninja.demo.customlisteners.CustomListeners"/>
 
     </listeners>
     <test name="Sanity Test" >
+
         <classes>
             <class name="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
             <class name="com.tutorialsninja.demo.testsuite.MyAccountsTest"/>
             <class name="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksTest"/>
             <class name="com.tutorialsninja.demo.testsuite.DesktopsTest"/>
         </classes>
+
     </test>
 </suite>
